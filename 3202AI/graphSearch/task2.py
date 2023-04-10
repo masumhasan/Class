@@ -1,8 +1,4 @@
 from collections import defaultdict
-
-# define a recursive function to perform DFS
-
-
 def dfs(node, graph, visited, dfs_path):
     visited[node] = True  # mark the current node as visited
     dfs_path.append(node)  # add the current node to the DFS path
